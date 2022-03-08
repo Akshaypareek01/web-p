@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    background-color: #24252A;
+    
+
+}
+li,a{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+     color:#FFE61B;
+     text-decoration: none;
+}
+.logo{
+    cursor: pointer;
+    color: #C1F8CF;
+    margin-left:30%;
+    margin-right: 30%;
+    font-family: "Montserrat",sans-serif;
+    align-items: center;
+    
+}
+.logo:hover{
+    color:aqua;
+    font-family:"Syne Mono" ;
+}
+.logo_1{
+    text-align: center;
+}
+
+nav{
+    align-items: center;
+}
+.nav__links{
+    
+    
+}
+.nav__links li{
+    padding:10px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover{
+    color:aqua;
+    font-size: 2rem;
+    
+}
